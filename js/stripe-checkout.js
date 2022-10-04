@@ -85,8 +85,7 @@ const d = document,
             .redirectToCheckout({
                 lineItems: [{ price, quantity: 1}],
                 mode:"payment",
-                //
-                mode:"subscription",
+                //mode:"subscription",
                 successUrl:"http://127.0.0.1:5500/success.html",
                 cancelUrl:"http://127.0.0.1:5500/success-cancel.html",
             })
